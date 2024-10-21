@@ -7,15 +7,15 @@ S3: If they're equal, return either one.
 Exercise 1 has been completed for you:
 */
 
-// const maxOfTwoNumbers = (x, y) => {
-//     if (x >= y) {
-//       return x;
-//     } else {
-//       return y;
-//     }
-//   }
+const maxOfTwoNumbers = (x, y) => {
+    if (x >= y) {
+      return x;
+    } else {
+      return y;
+    }
+  }
   
-//   console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
+  console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
   
 
 /* Exercise 2: isAdult()----------------------------------------------
@@ -35,15 +35,15 @@ Complete the exercise in the space below:
 // Step 4: return 'Adult' if 18+; 'Minor' if not
 // Step 5: Invoke function
 
-// const isAdult = (a) => {
-//  if (a >= 18) {
-//    return 'Adult';
-//  } else {
-//    return 'Minor';
-//  }
-// }
+const isAdult = (a) => {
+ if (a >= 18) {
+   return 'Adult';
+ } else {
+   return 'Minor';
+ }
+}
 
-// console.log('Exercise 2 Result:', isAdult(17));
+console.log('Exercise 2 Result:', isAdult(17));
 
 
 /* Exercise 3: isCharAVowel()-----------------------------------------
@@ -64,14 +64,14 @@ Complete the exercise in the space below:
 // Step 4: return result
 // Step 5: Invoke function a few times to test
 
-// const isCharAVowel = (char) => {
-//     const vowels = ['a', 'e', 'i', 'o', 'u'];
-//     return vowels.includes(char)
-// }
+const isCharAVowel = (char) => {
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    return vowels.includes(char)
+}
 
-// console.log('Exercise 3 Result:', isCharAVowel('a'));
-// console.log('Exercise 3 Result:', isCharAVowel('b'));
-// console.log('Exercise 3 Result:', isCharAVowel('e'));
+console.log('Exercise 3 Result:', isCharAVowel('a'));
+console.log('Exercise 3 Result:', isCharAVowel('b'));
+console.log('Exercise 3 Result:', isCharAVowel('e'));
 
 
 /*Exercise 4: generateEmail()-----------------------------------------
@@ -90,11 +90,11 @@ Complete the exercise in the space below:
 // Step 3: return the outcome
 // Step 4: Invoke function and test it
 
-// const generateEmail = (name, domain) => {
-//     return name + '@' + domain;
-// }
+const generateEmail = (name, domain) => {
+    return name + '@' + domain;
+}
 
-// console.log('Exercise 4 Result:', generateEmail('YERRR', 'BingBong.com'));
+console.log('Exercise 4 Result:', generateEmail('YERRR', 'BingBong.com'));
 
 
 /* Exercise 5: greetUser()--------------------------------------------
@@ -114,11 +114,11 @@ Complete the exercise in the space below:
    Step 4: return personlized message
    Step 5: Invoke function and test results */
 
-// const greetUser = (name, tod) => {
-//     return "Yo " + name + ', up for a codathon this ' + tod + '?';
-// }
+const greetUser = (name, tod) => {
+    return "Yo " + name + ', up for a codathon this ' + tod + '?';
+}
 
-// console.log('Exercise 5 Result:', greetUser('Aleks', 'morning'));
+console.log('Exercise 5 Result:', greetUser('Aleks', 'morning'));
 
 
 /* Exercise 6: maxOfThree()-------------------------------------------
@@ -137,17 +137,17 @@ Complete the exercise in the space below:
    Step 4: return the reuslts
    Step 5: Invoke function and test results */
 
-// const maxOfThree = (x, y, z) => {
-//     if (x >= y && z) {
-//         return x;
-//     } else if (y >= x && z) {
-//         return y;
-//     } else if (z >= x && y) {
-//         return z;
-//     }
-// }
+const maxOfThree = (x, y, z) => {
+    if (x >= y && z) {
+        return x;
+    } else if (y >= x && z) {
+        return y;
+    } else if (z >= x && y) {
+        return z;
+    }
+}
 
-// console.log('Exercise 6 Result:', maxOfThree(5, 8, 11));
+console.log('Exercise 6 Result:', maxOfThree(5, 8, 11));
 /* Comment:
 The function outputs the incorrect variable when z 
 is the lager number, but correct when x/y are larger 🤔 */
@@ -170,11 +170,11 @@ Complete the exercise in the space below:
 // Step 4: return amount of tip
 // Step 5: Invoke function to test results
 
-// const calculateTip = (billAmount, tipPercent) => {
-//     return billAmount * (tipPercent / 100)
-// }
+const calculateTip = (billAmount, tipPercent) => {
+    return billAmount * (tipPercent / 100)
+}
 
-// console.log('Exercise 7 Result:', calculateTip(50, 10));
+console.log('Exercise 7 Result:', calculateTip(50, 10));
 
 
 /* Exercise 8: convertTemperature()-----------------------------------
@@ -196,16 +196,16 @@ Complete the exercise in the space below:
 // Step 4: return converted temperature
 // Step 5: Invoke function to test results
 
-// const convertTemperature = (temperature, scale) => {
-//     if (scale === 'C') {
-//         return (temperature * 9/5) + 32;
-//     } else if (scale === 'F') {
-//         return (temperature - 32) * 5/9;
-//     }
+const convertTemperature = (temperature, scale) => {
+    if (scale === 'C') {
+        return (temperature * 9/5) + 32;
+    } else if (scale === 'F') {
+        return (temperature - 32) * 5/9;
+    }
 
-// }
+}
 
-// console.log('Exercise 8 Result:', convertTemperature(32, "F"));
+console.log('Exercise 8 Result:', convertTemperature(32, "F"));
 
 
 /* Exercise 9: basicCalculator()--------------------------------------
@@ -232,19 +232,19 @@ Complete the exercise in the space below:
    Step 5: return calculation
    Step 6: Invoke the function to check results */
 
-// const basicCalculator = (a, b, operation) => {
-//     if (operation === 'add') {
-//         return a + b;
-//     } else if (operation === 'subtract') {
-//         return a - b;
-//     } else if (operation === 'multiply') {
-//         return a * b;
-//     } else if (operation === 'divide') {
-//         return a / b;
-//     }
-// }
+const basicCalculator = (a, b, operation) => {
+    if (operation === 'add') {
+        return a + b;
+    } else if (operation === 'subtract') {
+        return a - b;
+    } else if (operation === 'multiply') {
+        return a * b;
+    } else if (operation === 'divide') {
+        return a / b;
+    }
+}
 
-// console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
 
 
 /* Exercise 10: calculateGrade()--------------------------------------
@@ -268,21 +268,21 @@ Complete the exercise in the space below:
    Step 4: return the grade
    Step 5: Invoke the function to check results  */
 
-// const calculateGrade = (grade) => {
-//     if (grade >= 90) {
-//         return 'A'
-//     } else if (grade >= 80 && grade <= 89) {
-//         return 'B'
-//     } else if (grade >= 70 && grade <= 79) {
-//         return 'C'
-//     } else if (grade >= 60 && grade <= 69) {
-//         return 'D'
-//     } else if (grade < 60) {
-//         return 'F'
-//     } 
-// }
+const calculateGrade = (grade) => {
+    if (grade >= 90) {
+        return 'A'
+    } else if (grade >= 80 && grade <= 89) {
+        return 'B'
+    } else if (grade >= 70 && grade <= 79) {
+        return 'C'
+    } else if (grade >= 60 && grade <= 69) {
+        return 'D'
+    } else if (grade < 60) {
+        return 'F'
+    } 
+}
 
-// console.log('Exercise 10 Result:', calculateGrade(45));
+console.log('Exercise 10 Result:', calculateGrade(45));
 
 
 /* Exercise 11: createUsername()--------------------------------------
@@ -309,17 +309,17 @@ Complete the exercise in the space below:
    Step 4: return the results
    Step 5: Invoke the function to check results */
 
-// const createUsername = (firstName, lastName) => {
-//     let firstThreeFirstName = firstName.substring(0, 3);
-//     let firstThreeLastName = lastName.substring(0, 3);
-//     let totalLength = firstName.length + lastName.length;
+const createUsername = (firstName, lastName) => {
+    let firstThreeFirstName = firstName.substring(0, 3);
+    let firstThreeLastName = lastName.substring(0, 3);
+    let totalLength = firstName.length + lastName.length;
 
-//     let username = firstThreeFirstName + firstThreeLastName + totalLength;
+    let username = firstThreeFirstName + firstThreeLastName + totalLength;
 
-//     return username;
-// }
+    return username;
+}
 
-// console.log('Exercise 11 Result:', createUsername("Ay", "ooo"));
+console.log('Exercise 11 Result:', createUsername("Ay", "ooo"));
 
 
 /* Exercise 12: numArgs()---------------------------------------------
@@ -330,12 +330,12 @@ This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
 */
 
-// const numArgs = (...args) => {
+const numArgs = (...args) => {
 
-//     return args.length;
-// }
+    return args.length;
+}
 
-// console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
+console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
 
 
 // I survived...
